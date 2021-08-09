@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~     This file is part of BeeperAlarm app.
+  ~
+  ~     BeeperAlarm app is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     BeeperAlarm app is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with BeeperAlarm app.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/Widget"
+        android:layout_width="match_parent"
+        android:layout_height="72dip"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:gravity="center_horizontal"
+        style="@android:style/Widget"
+        >
+
+        <ImageView
+            android:id="@+id/widget_icon"
+            android:src="@drawable/icon_green"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:paddingTop="3dip"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/appwidget_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="10dip"
+            android:background="@color/white"
+            android:padding="2dp"
+            />
+
+    </LinearLayout>
+</FrameLayout>

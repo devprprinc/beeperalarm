@@ -1,0 +1,300 @@
+<!--
+  ~     This file is part of BeeperAlarm app.
+  ~
+  ~     BeeperAlarm app is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     BeeperAlarm app is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with BeeperAlarm app.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<!-- Parent Layout -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+    <!-- first Child Layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+    <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+    <LinearLayout
+        android:id="@+id/firstLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- place one TextView and one EditText inside layout using weight property -->
+
+        <TextView
+            android:id="@+id/filter_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.7"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/filter_name"
+            android:textColor="?android:attr/textColor"  />
+
+        <EditText
+            android:id="@+id/filter_name_text"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.3"
+            android:background="@color/editTextBack"
+            android:hint="@string/filter_name_hint"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textColor="@color/blackColor"
+            android:inputType="text" />
+    </LinearLayout>
+    <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+    <!-- second Child Layout -->
+
+    <LinearLayout
+        android:id="@+id/secondLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- place one TextView and one EditText inside layout using weight property -->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.7"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/sender_filter_nr"
+            android:textColor="?android:attr/textColor" />
+
+        <EditText
+            android:id="@+id/phone_nr"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.3"
+            android:background="@color/editTextBack"
+            android:hint="@string/sender_filter_nr_hint"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:inputType="text"
+            android:textColor="@color/blackColor" />
+    </LinearLayout>
+    <!-- create a Linear Layout with horizontal orientation and weightSum property -->
+    <!-- third Child Layout -->
+
+    <LinearLayout
+        android:id="@+id/thirdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- place one TextView and one EditText inside layout using weight property -->
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="0.7"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/trigger_string"
+            android:textColor="?android:attr/textColor" />
+
+        <EditText
+            android:id="@+id/trigger_string"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.3"
+            android:background="@color/editTextBack"
+            android:hint="@string/trigger_string_hint"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:inputType="text"
+            android:textColor="@color/blackColor" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fourthLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <CheckBox
+            android:id="@+id/enable_filter"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/filter_enable"
+            android:layoutDirection="rtl"
+            android:textColor="?android:attr/textColor"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/fifthLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:textColor="?android:attr/textColor"
+        >
+
+        <CheckBox
+            android:id="@+id/enable_logging"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/enable_logging"
+            android:layoutDirection="rtl"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:visibility="gone">
+
+        <CheckBox
+            android:id="@+id/enable_vibrating"
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/enable_vibration"
+            android:layoutDirection="rtl"
+            android:textColor="?android:attr/textColor"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/select_ringtone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="@string/select_ringtone"
+            android:textColor="@color/whiteColor" />
+
+        <TextView
+            android:id="@+id/curent_ringtone"
+            android:gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:textColor="?android:attr/textColor" />
+
+    </LinearLayout>
+    <!--    fifth Layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/volume_text"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="0.7"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="@string/volume"
+            android:textColor="?android:attr/textColor" />
+
+        <SeekBar
+            android:id="@+id/volume_selecter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1.2" />
+
+    </LinearLayout>
+    <!--    sixth Layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/save_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="@string/save"
+            android:textColor="@color/whiteColor" />
+
+        <Button
+            android:id="@+id/test_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/test"
+            android:textColor="@color/whiteColor" />
+
+        <Button
+            android:id="@+id/delete_profile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="@string/delete"
+            android:textColor="@color/whiteColor" />
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

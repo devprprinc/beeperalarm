@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~     This file is part of BeeperAlarm app.
+  ~
+  ~     BeeperAlarm app is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     BeeperAlarm app is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with BeeperAlarm app.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="app_name">BeeperAlarm</string>
+    <string name="action_settings">Nastavitve</string>
+    <string name="add_filter_text">Dodaj filter</string>
+    <string name="menu_home">Domov</string>
+    <string name="menu_info">Informacije</string>
+    <string name="menu_filter_list">Seznam filtrov</string>
+    <string name="title_activity_alarm">Alarm</string>
+    <string name="home_fragment_text">Domača stran</string>
+    <string name="title_activity_settings">Splošne nastavitve</string>
+    <string name="filter_name">Ime filtra</string>
+    <string name="filter_name_hint">Vnesi ime filtra</string>
+    <string name="sender_filter_nr">Številka pošiljatelja</string>
+    <string name="sender_filter_nr_hint">Vnesi številko</string>
+    <string name="trigger_string">Ključna beseda</string>
+    <string name="trigger_string_hint">Beseda1;Beseda2; ...</string>
+    <string name="filter_enable">Omogoči filter</string>
+    <string name="enable_logging">Omogoči logiranje</string>
+    <string name="enable_vibration">Omogoči vibriranje (v delu)</string>
+    <string name="select_ringtone">Izberi zvok</string>
+    <string name="volume">Jakost</string>
+    <string name="save">Shrani</string>
+    <string name="test">Testiraj</string>
+    <string name="delete">Izbriši</string>
+    <string name="error_setting_filter">NAPAKA</string>
+    <string name="error_setting_filter_msg">Manjkajoča vnosna polja</string>
+    <string name="appwidget_text">BeeperAlarm</string>
+    <string name="add_widget">Dodaj pripomoček</string>
+    <string name="filter_list">Seznam filtrov</string>
+    <string name="enable_global">Aktiviraj filtriranje</string>
+    <string name="global_settings">Nastavitve</string>
+    <string name="navigation_drawer_open">Odpri stranski meni</string>
+    <string name="navigation_drawer_close">Zapri stranski meni</string>
+    <string name="close">Izhod</string>
+    <string name="confirm">Potrdi</string>
+    <string name="test_msg_cnt">Testno sporočilo</string>
+    <string name="test_msg_sender">112</string>
+    <string name="widget_enable">vklopljeno</string>
+    <string name="widget_disable">izklopljeno</string>
+    <string name="alarm_sender">Pošilja:</string>
+    <string name="filter_name_msg">Filter:</string>
+    <string name="delete_log_title">Izbris zgodovine</string>
+    <string name="delete_log_text">Ali ste prepričani, da želite izbrisati vso zgodovino?</string>
+    <string name="delete_yes">Da</string>
+    <string name="delete_no">Ne</string>
+    <string name="no_logs">Nobenih sporočil do sedaj</string>
+    <string name="app_description">Aplikacija ki sproži alarm ob sprejemu SMS</string>
+    <string name="basic_info">Ta aplikacija aktivira alarm in odpre okno z SMS vsebino, ob prejemu posebnega SMS sporočila. Za aktivacijo alarma preko SMS sporočila je potrebno vnesti pošiljateljevo številko ali ključno besedo v SMS sporočilu (ni potrebno oboje).\nPri vnosu številke je lahko vnesen samo del številke, vendar minimalno 3 številke. Pri vnosu ključne besede je potrebno vnesti minimalno 3 črke, v primeru večih ključnih besed jih loči z znakom \";\".\nAlarm se aktivira tudi v načinu \"Ne moti\". Za hitro izklapljanje/vklapjanje alarma preko \"začetnega zaslona\" je razvit \"pripomoček\".\n\nZa delovanje aplikacije je potrebno imeti naslednja dovoljenja, ki jih nastaviš preko sistemskih nastavitev telefona:\n\u25CFSMS (branje vseh sporočil)\n\u25CFDatoteke in predstavnost (shranjevanje zgodovine sporočil)\n\u25CFStiki (za povezovanje pošiljateljevo številko s shranjenim kontaktom)\n\u25CFPrekrivanje drugih aplikacij (za aktiviranje okna ob aktivaciji alarma).\nPrav tako je potrebno izklopiti možnost \"Odstrani dovoljenja, če aplikacija ni v uporabi\".\n\nPri nekaterih proizvajalcih mobilnih telefonov (Samsung, Huawei ...) je potrebno tudi aplikaciji onemogočiti nastavitev \"optimizacija baterije\" oz. podobno.\nAplikacija je razvita za android 10 in višje in ne deluje na napravah z \"Go edition\" OS.\n\nV primeru napak, novih funkcionalnosti ali nedelovanje aplikacije piši na: dev.prprinc@gmail.com\n\nTa aplikacija je zastonj in brez oglasov.</string>
+    <string name="info_title">O aplikaciji</string>
+    <string name="link_to_source_code">Izvorna koda</string>
+    <string name="copyright_licence">Dovoljenje</string>
+    <string name="version">verzija</string>
+    <string name="permission_error">DOVOLJENJA</string>
+    <string name="sms_permission">Aplikacija potrebuje dovoljenje za branje SMS. Brez tega dovoljenja aplikacija ne bo delovala.</string>
+    <string name="draw_over_other_apps_permission">Ta aplikacije ne bo delovala na tej napravi. Naprava ne podpirira \"Prekrivanje drugih aplikacij\".</string>
+    <string name="phone_contact_permission">Dostop do stikov ni dovoljen.</string>
+    <string name="ok">V redu</string>
+    <string name="auto_revoke_title">ODSTRANI DOVOLJENJA</string>
+    <string name="auto_revoke_text">Za normalno delovanje aplikacije onemogoči možnost \"odstrani dovoljenja, če aplikacija ni v uporabi\".</string>
+    <string name="licence_text">BeeperAlarm je prosta in odprta programska oprema: lahko jo uporabljaš, preučuješ in izboljšaš po želji. Lahko jo distributiraš in/ali spremeniš pod pogoji GNU General Public Licence, kot jo je izdala Free Software Foundation v različici 3 ali po izbiri v katerikoli novejši različici.</string>
+    <string name="copyright_text">© Klemen Rahne, 2021</string>
+    <string name="external_lib">Zunanje knjižnice</string>
+    <string name="external_lib_list">Slide To Act (Nicola Corti, licence MIT)</string>
+    <string name="link_to_gpl3">Določila dovoljenja GPL v3</string>
+</resources>

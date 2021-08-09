@@ -1,0 +1,85 @@
+<!--
+  ~     This file is part of BeeperAlarm app.
+  ~
+  ~     BeeperAlarm app is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     BeeperAlarm app is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with BeeperAlarm app.  If not, see <https://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="app_name">BeeperAlarm</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">BeeperAlarm</string>
+    <string name="nav_header_subtitle" translatable="false">Sms Alarm App</string>
+    <string name="nav_header_desc" translatable="false">Sms Alarm App</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_filter_text">Add filter</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_filter_list">Filter LIST</string>
+    <string name="title_activity_alarm">Alarm</string>
+    <string name="home_fragment_text">Home page</string>
+    <string name="title_activity_settings">App settings</string>
+    <string name="filter_name">Filter name</string>
+    <string name="filter_name_hint">Enter filter name</string>
+    <string name="sender_filter_nr">Sender filter number</string>
+    <string name="sender_filter_nr_hint">Enter number</string>
+    <string name="trigger_string">Trigger strings</string>
+    <string name="trigger_string_hint">String1;String2; ...</string>
+    <string name="filter_enable">Enable filter</string>
+    <string name="enable_logging">Enable logging</string>
+    <string name="enable_vibration">Enable vibration (TODO)</string>
+    <string name="select_ringtone">Select Ringtone</string>
+    <string name="volume">Volume</string>
+    <string name="save">Save</string>
+    <string name="test">Test</string>
+    <string name="delete">Delete</string>
+    <string name="close">Close</string>
+    <string name="confirm">Confirm</string>
+    <string name="test_msg_cnt">Test message string</string>
+    <string name="test_msg_sender">911</string>
+    <string name="enable_global">Enable/Disable</string>
+    <string name="global_settings">Options</string>
+    <string name="appwidget_text">BeeperAlarm</string>
+    <string name="add_widget">Add widget</string>
+    <string name="filter_list">Filter list</string>
+    <string name="error_setting_filter_msg">Incorrect input values</string>
+    <string name="error_setting_filter">ERROR</string>
+    <string name="widget_enable">enabled</string>
+    <string name="widget_disable">disabled</string>
+    <string name="alarm_sender">Sender:</string>
+    <string name="filter_name_msg">Filter:</string>
+    <string name="delete_log_title">Delete logs</string>
+    <string name="delete_log_text">Are you sure you want to delete all logs?</string>
+    <string name="delete_yes">Yes</string>
+    <string name="delete_no">No</string>
+    <string name="no_logs">No logs</string>
+    <string name="app_description">Application for activating alarm when received SMS</string>
+    <string name="basic_info">This application activates alarm and opens window with SMS content. For alarm activation when special SMS is received, sender number or/and trigger string must be set. When setting sender number minimum 3 digit must be entered. When setting trigger string minimum 3 characters must be entered, in case of multiple string use \";\" divider.\nAlarm is activate also in \"Do not disturb\" mode. For faster disable/enable of alarm detection \"widget\" is developed.\n\nFor normal operation application needs following permissions, which are set via phone settings:\n\u25CFSMS read (reading all SMS)\n\u25CFFiles and Media (storing alarms log history)\n\u25CFContacts (for pairing sender number with contact name)\n\u25CFDisplay over other apps (for opening alarm window on alarm activation).\nOption \"Remove permission if app is not used\" must be disabled.\n\nAdditionally on some phones (Samsung, Huawei …) this application needs to be removed from \"battery optimization\" list or similar.\nThis application is developed for Android 10 or higher ans does not work on devices with \"Go edition\".\n\nIn case of bugs, new features or application malfunctions contact me: dev.prprinc@gmail.com\n\nThis app is free and ad free.</string>
+    <string name="info_title">About App</string>
+    <string name="link_to_source_code">Source code</string>
+    <string name="copyright_licence">Licence</string>
+    <string name="copyright_text">© Klemen Rahne, 2021</string>
+    <string name="link_to_gpl3">Read licence GPL v3</string>
+    <string name="version">version</string>
+    <string name="permission_error">PERMISSION DENIED</string>
+    <string name="sms_permission">SMS_READ permission is denied. App needs this permission for reading SMS.</string>
+    <string name="draw_over_other_apps_permission">This app will not work on this device. It does not support \"Draw over other apps\".</string>
+    <string name="phone_contact_permission">Access to contacts denied.</string>
+    <string name="ok">OK</string>
+    <string name="auto_revoke_title">AUTO REVOKE PERMISSION</string>
+    <string name="auto_revoke_text">For optimal app performance please disable \"Remove permission if app is not used\".</string>
+    <string name="licence_text">BeeperAlarm is copyleft libre software: You can use, study share and improve it at will. Specifically you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.</string>
+    <string name="external_lib">External libraries</string>
+    <string name="external_lib_list">Slide To Act (Nicola Corti, licence MIT)</string>
+</resources>
