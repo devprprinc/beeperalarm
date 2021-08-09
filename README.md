@@ -7,9 +7,10 @@ BeeperAlarm je android aplikacija, ki ob prejemu SMS sporočila sproži alarm.
 
 ## PRENOS
 
-Aplikacija za prenos je na volju tu:
+Najnovejša vezija aplikacije (trenutno beta verzija) za prenos je na volju tu:
 
-[BeeperAlarm-v1-1.0.0-beta.apk](https://github.com/devprprinc/beeperalarm/tree/main/app/beta/BeeperAlarm-v1-1.0.0-beta.apk)
+[**BeeperAlarm-v1-1.0.0-beta.apk**](https://github.com/devprprinc/beeperalarm/raw/main/app/beta/BeeperAlarm-v1-1.0.0-beta.apk)
+
 
 ### Funkcije
 * filtriranje preko pošiljateljeve številke ali vsebujoče besede v SMS sporočilu
@@ -17,24 +18,20 @@ Aplikacija za prenos je na volju tu:
 * nastavljanje melodije alarma za posamezni filter
 * pripomoček na namizni strani za hiter vklop/izklop aplikacije
 
-### Dovoljenja
-za delovanje aplikacije apliakcija potrebuje naslednja dovoljenja:
+#### Dovoljenja
+Za delovanje aplikacija potrebuje naslednja dovoljenja:
 * SMS (branje vseh SMS sporočil)
 * Stiki (za lepši izpis pošiljatelja)
 * Prekrivanje drugih aplikacij (za avtomatski prikaz okna ob alarmu)
 
-Za optimalno delovanje se priporoča tudi odstranitev nastavitve "Odstrani dovoljenja, če aplikacija ni v uporabi".
+Za stabilno delovanje se priporoča tudi odstranitev nastavitve "Odstrani dovoljenja, če aplikacija ni v uporabi".
 
 Pri nekaterih proizvajalcih mobilnih telefonov (Samsung, Huawei ...) je potrebno tudi aplikaciji onemogočiti nastavitev "optimizacija baterije" oz. podobno.
 Aplikacija je razvita za android 10 in višje in ne deluje na napravah z "Go edition" OS.
 
 
-
-
 [<img src="screenshots/dovoljenje1.png" width=300>](screenshots/dovoljenje1.png)
 [<img src="screenshots/dovoljenje2.png" width=300>](screenshots/dovoljenje2.png)
-
-
 
 
 ### Zaslonske slike
@@ -57,6 +54,10 @@ BeeperAlarm je prosta in odprta programska oprema: lahko jo uporabljaš, preuču
 
 
 Slide To Act (Nicola Corti, licence MIT) https://github.com/cortinico/slidetoact
+
+
+### Zasebnost
+Aplikacija ne zbira in ne pošilja nobenih uporabnikovih podatkov (ne zahteva dostopa do internetne povezave). Aplikacija shranjuje samo zgodovino prejetih alarmov, kateri se ne delijo naprej.
 
 ## Ostalo
 
