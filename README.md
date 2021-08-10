@@ -9,7 +9,7 @@ BeeperAlarm je android aplikacija, ki ob prejemu SMS sporočila sproži alarm.
 
 Najnovejša verzija aplikacije (trenutno beta verzija) za prenos je na volju tu:
 
-[**BeeperAlarm-v1-1.0.0-beta.apk**](https://github.com/devprprinc/beeperalarm/raw/main/app/beta/BeeperAlarm-v1-1.0.0-beta.apk)
+[**BeeperAlarm-v1-1.0.0-beta.apk**](https://github.com/devprprinc/beeperalarm/releases/download/v1-1.0.0-beta/BeeperAlarm-v1-1.0.0-beta.apk)
 
 
 ### Funkcije
